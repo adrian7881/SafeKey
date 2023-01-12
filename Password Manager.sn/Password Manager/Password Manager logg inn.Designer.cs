@@ -77,6 +77,7 @@
             this.btnLogginn.TabIndex = 2;
             this.btnLogginn.Text = "Login";
             this.btnLogginn.UseVisualStyleBackColor = false;
+            this.btnLogginn.Click += new System.EventHandler(this.btnLogginn_Click);
             // 
             // picLogo
             // 

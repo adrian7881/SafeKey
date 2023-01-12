@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Password_Manager.AccountManager;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,15 +16,14 @@ namespace Password_Manager
         public Logg_inn()
         {
             InitializeComponent();
+
+            
         }
 
         private void Logg_inn_Load(object sender, EventArgs e)
         {
             
         }
-
-
-
 
 
         private void txtPassord_inn_logg_TextChanged(object sender, EventArgs e)
@@ -34,6 +34,12 @@ namespace Password_Manager
         private void lblEnter_password_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnLogginn_Click(object sender, EventArgs e)
+        {
+            Accountmanager accountmanager = new Accountmanager();
+            accountmanager.ShowDialog();
         }
     }
 }
