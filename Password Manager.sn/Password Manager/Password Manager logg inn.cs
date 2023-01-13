@@ -1,4 +1,4 @@
-﻿using Password_Manager.AccountManager;
+﻿
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -39,7 +39,10 @@ namespace Password_Manager
         private void btnLogginn_Click(object sender, EventArgs e)
         {
             Accountmanager accountmanager = new Accountmanager();
+            ///this.Hide();
             accountmanager.ShowDialog();
+            
+
         }
     }
 }
