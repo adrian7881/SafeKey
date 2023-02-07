@@ -39,9 +39,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btnMoveUp = new System.Windows.Forms.Button();
             this.btnMoveDown = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblAccounts = new System.Windows.Forms.Label();
             this.lblAccountnumber = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -185,16 +185,6 @@
             this.btnMoveDown.Text = "Down";
             this.btnMoveDown.UseVisualStyleBackColor = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Password_Manager.Properties.Resources.MicrosoftTeams_image__5_;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 37);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(178, 52);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // lblAccounts
             // 
             this.lblAccounts.AutoSize = true;
@@ -216,6 +206,16 @@
             this.lblAccountnumber.Size = new System.Drawing.Size(54, 21);
             this.lblAccountnumber.TabIndex = 13;
             this.lblAccountnumber.Text = "label4";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Password_Manager.Properties.Resources.MicrosoftTeams_image__5_;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 37);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(178, 52);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Accountmanager
             // 

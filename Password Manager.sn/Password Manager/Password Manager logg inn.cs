@@ -38,7 +38,7 @@ namespace Password_Manager
 
         private void btnLogginn_Click(object sender, EventArgs e)
         {
-            Accountmanager accountmanager = new Accountmanager();
+            SafeKeyMain2 accountmanager = new SafeKeyMain2();
             ///this.Hide();
             accountmanager.ShowDialog();
             
