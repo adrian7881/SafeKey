@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PasswordAddAccount.Properties
+namespace Password_Manager.Properties
 {
 
 

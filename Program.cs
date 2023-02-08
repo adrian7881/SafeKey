@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PasswordAddAccount
+namespace Password_Manager
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace PasswordAddAccount
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form2());
+            Application.Run(new Logg_inn());
         }
     }
 }
