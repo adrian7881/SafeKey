@@ -209,7 +209,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Password_Manager.Properties.Resources.MicrosoftTeams_image__5_;
+            this.pictureBox1.Image = global::Password_Manager.Properties.Resources.logo_transparant;
             this.pictureBox1.Location = new System.Drawing.Point(0, 37);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(178, 52);

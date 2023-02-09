@@ -63,9 +63,9 @@ namespace Password_Manager.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap MicrosoftTeams_image__5_ {
+        internal static System.Drawing.Bitmap logo_transparant {
             get {
-                object obj = ResourceManager.GetObject("MicrosoftTeams-image (5)", resourceCulture);
+                object obj = ResourceManager.GetObject("logo_transparant", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

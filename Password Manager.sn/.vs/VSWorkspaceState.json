@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Password Manager",
-    "\\Password Manager\\AccountManager"
+    "\\Password Manager\\Properties"
   ],
-  "SelectedNode": "\\Password Manager\\AccountManager\\AccountManager.cs",
+  "SelectedNode": "\\Password Manager\\Properties\\Resources.Designer.cs",
   "PreviewInSolutionExplorer": false
 }
