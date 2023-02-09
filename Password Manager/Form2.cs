@@ -26,10 +26,11 @@ namespace Password_Manager
             MyGlobals.txtUsernameVar = txtUsername.Text;
 
 
-            SafeKeyMain2 accountmanager = new SafeKeyMain2();
+            SafeKeyMain2 form = (SafeKeyMain2)sender;
+            form.ShowInTaskbar = true;
+            form.Opacity = 100;
             this.Hide();
-            /*accountmanager.ShowDialog();*/
-            SafeKeyMain2.WindowState = FormWindowState.Minimized;
+            this.Close();
         }
 
         public Form2()
@@ -42,6 +43,7 @@ namespace Password_Manager
             SafeKeyMain2 accountmanager = new SafeKeyMain2();
             this.Hide();
             accountmanager.ShowDialog();
+            this.Close();
         }
 
         private void btnPasteInfo_Click(object sender, EventArgs e)

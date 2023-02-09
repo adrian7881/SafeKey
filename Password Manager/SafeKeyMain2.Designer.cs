@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SafeKeyMain2));
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.listBox1 = new System.Windows.Forms.ListBox();
@@ -42,19 +43,19 @@
             this.button5 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fAQToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.accountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -136,10 +137,10 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button4.Location = new System.Drawing.Point(10, 268);
-            this.button4.Margin = new System.Windows.Forms.Padding(10);
+            this.button4.Location = new System.Drawing.Point(10, 258);
+            this.button4.Margin = new System.Windows.Forms.Padding(10, 0, 10, 10);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(189, 66);
+            this.button4.Size = new System.Drawing.Size(189, 76);
             this.button4.TabIndex = 14;
             this.button4.Text = "Search";
             this.button4.UseVisualStyleBackColor = false;
@@ -153,10 +154,10 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button3.Location = new System.Drawing.Point(10, 182);
-            this.button3.Margin = new System.Windows.Forms.Padding(10);
+            this.button3.Location = new System.Drawing.Point(10, 172);
+            this.button3.Margin = new System.Windows.Forms.Padding(10, 0, 10, 10);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(189, 66);
+            this.button3.Size = new System.Drawing.Size(189, 76);
             this.button3.TabIndex = 14;
             this.button3.Text = "Delete Account";
             this.button3.UseVisualStyleBackColor = false;
@@ -170,10 +171,10 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button2.Location = new System.Drawing.Point(10, 96);
-            this.button2.Margin = new System.Windows.Forms.Padding(10);
+            this.button2.Location = new System.Drawing.Point(10, 86);
+            this.button2.Margin = new System.Windows.Forms.Padding(10, 0, 10, 10);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(189, 66);
+            this.button2.Size = new System.Drawing.Size(189, 76);
             this.button2.TabIndex = 14;
             this.button2.Text = "Edit Account";
             this.button2.UseVisualStyleBackColor = false;
@@ -187,10 +188,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button1.Location = new System.Drawing.Point(10, 10);
-            this.button1.Margin = new System.Windows.Forms.Padding(10);
+            this.button1.Location = new System.Drawing.Point(10, 0);
+            this.button1.Margin = new System.Windows.Forms.Padding(10, 0, 10, 10);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(189, 66);
+            this.button1.Size = new System.Drawing.Size(189, 76);
             this.button1.TabIndex = 14;
             this.button1.Text = "Add Account";
             this.button1.UseVisualStyleBackColor = false;
@@ -219,10 +220,10 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button6.Location = new System.Drawing.Point(110, 10);
-            this.button6.Margin = new System.Windows.Forms.Padding(10);
+            this.button6.Location = new System.Drawing.Point(110, 0);
+            this.button6.Margin = new System.Windows.Forms.Padding(10, 0, 10, 10);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(80, 60);
+            this.button6.Size = new System.Drawing.Size(80, 70);
             this.button6.TabIndex = 14;
             this.button6.Text = "Down";
             this.button6.UseVisualStyleBackColor = false;
@@ -236,10 +237,10 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button5.Location = new System.Drawing.Point(10, 10);
-            this.button5.Margin = new System.Windows.Forms.Padding(10);
+            this.button5.Location = new System.Drawing.Point(10, 0);
+            this.button5.Margin = new System.Windows.Forms.Padding(10, 0, 10, 10);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(80, 60);
+            this.button5.Size = new System.Drawing.Size(80, 70);
             this.button5.TabIndex = 14;
             this.button5.Text = "Up";
             this.button5.UseVisualStyleBackColor = false;
@@ -272,6 +273,17 @@
             this.label2.TabIndex = 14;
             this.label2.Text = "Account list";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.pictureBox1.Image = global::Password_Manager.Properties.Resources.MicrosoftTeams_image__5_;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(201, 94);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            // 
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
@@ -299,7 +311,7 @@
             this.fAQToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.fAQToolStripMenuItem.ForeColor = System.Drawing.Color.Gainsboro;
             this.fAQToolStripMenuItem.Name = "fAQToolStripMenuItem";
-            this.fAQToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fAQToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
             this.fAQToolStripMenuItem.Text = "FAQ";
             // 
             // accountToolStripMenuItem
@@ -319,17 +331,6 @@
             this.logOutToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.logOutToolStripMenuItem.Text = "Log Out";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.pictureBox1.Image = global::Password_Manager.Properties.Resources.MicrosoftTeams_image__5_;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(201, 94);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 14;
-            this.pictureBox1.TabStop = false;
-            // 
             // SafeKeyMain2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -338,9 +339,10 @@
             this.ClientSize = new System.Drawing.Size(848, 660);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "SafeKeyMain2";
-            this.Text = "SafeKeyMain2";
+            this.Text = "SafeKey";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.SafeKeyMain2_Load_1);
             this.panel2.ResumeLayout(false);
@@ -350,9 +352,9 @@
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

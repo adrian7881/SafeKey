@@ -41,6 +41,7 @@ namespace Password_Manager
             SafeKeyMain2 accountmanager = new SafeKeyMain2();
             this.Hide();
             accountmanager.ShowDialog();
+            this.Close();
         }
     }
 }

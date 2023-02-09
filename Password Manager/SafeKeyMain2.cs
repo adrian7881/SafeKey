@@ -26,8 +26,11 @@ namespace Password_Manager
         private void button1_Click(object sender, EventArgs e)
         {
             Form2 accountmanager = new Form2();
-            this.Hide();
             accountmanager.ShowDialog();
+
+            SafeKeyMain2 form = (SafeKeyMain2)sender;
+            form.ShowInTaskbar = false;
+            form.Opacity = 0;
         }
 
         private void SafeKeyMain2_Load_1(object sender, EventArgs e)
