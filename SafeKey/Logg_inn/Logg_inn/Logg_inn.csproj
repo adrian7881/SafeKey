@@ -7,4 +7,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="MicrosoftTeams-image %285%29.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="MicrosoftTeams-image (5).png" />
+  </ItemGroup>
+
 </Project>

@@ -5,8 +5,46 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Logg_inn"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="MainWindow" Height="700" Width="1000" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="{x:Null}" WindowStyle="None" AllowsTransparency="True">
+    <Window.Resources>
+        <Storyboard x:Key="Storyboard1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="___btnLog_inn_" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="-12"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Grid Width="1000" Height="700">
+        <Rectangle HorizontalAlignment="Center" Height="700" VerticalAlignment="Center" Width="1000" RadiusX="16.609" RadiusY="16.609" Fill="#FF1F1F1F"/>
+        <Rectangle x:Name="___logo_" HorizontalAlignment="Center" Height="113" Margin="0,61,0,0" VerticalAlignment="Top" Width="308">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="/MicrosoftTeams-image (5).png"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Grid Height="700" Width="1000" RenderTransformOrigin="0.264,0.184" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="83*"/>
+                <ColumnDefinition Width="167*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="1000" Height="700">
+                <Rectangle HorizontalAlignment="Center" Height="395" VerticalAlignment="Top" Width="390" RadiusX="23.5" RadiusY="23.5" Fill="#FF292929" Margin="0,238,0,0"/>
+                <TextBlock HorizontalAlignment="Center" Height="53" Margin="0,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" FontSize="24" TextAlignment="Center" Text="WELCOME BACK" Foreground="Gainsboro"/>
+                <TextBox x:Name="___txtboxUsername_" HorizontalAlignment="Center" Height="30" Margin="0,385,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="333" SelectionTextBrush="{x:Null}" Background="{x:Null}" Foreground="Gainsboro" BorderBrush="Gainsboro" FontSize="16" VerticalContentAlignment="Center" Opacity="0.6"/>
+                <TextBlock Margin="334,351,333,315" TextWrapping="Wrap" FontSize="18" Foreground="Gainsboro" FontWeight="DemiBold"><Run Language="nb-no" Text="E-Mail or Username"/></TextBlock>
+                <TextBlock HorizontalAlignment="Center" Height="53" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" FontSize="24" TextAlignment="Center" Foreground="Gainsboro" FontWeight="Bold" Margin="0,292,0,0"><Run Language="nb-no" Text="Log into your account"/></TextBlock>
+                <TextBox x:Name="___txtboxPassword_log_inn_" HorizontalAlignment="Center" Height="30" Margin="0,482,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="333" SelectionTextBrush="{x:Null}" Background="{x:Null}" Foreground="Gainsboro" BorderBrush="Gainsboro" FontSize="16" VerticalContentAlignment="Center"/>
+                <TextBlock Margin="334,448,333,218" TextWrapping="Wrap" FontSize="18" Foreground="Gainsboro" FontWeight="DemiBold"><Run Language="nb-no" Text="Password"/></TextBlock>
+                <Button x:Name="___btnLog_inn_" Content="Login Now" HorizontalAlignment="Center" Height="41" Margin="0,562,0,0" VerticalAlignment="Top" Width="334" FontSize="20" Foreground="Gainsboro" Background="#FF00ADB5" BorderBrush="{x:Null}" BorderThickness="3,1,3,3" RenderTransformOrigin="0.5,0.5">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                </Button>
+                <TextBox x:Name="___txtboxUsername" HorizontalAlignment="Center" Height="30" Margin="0,385,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="333" SelectionTextBrush="{x:Null}" Background="{x:Null}" Foreground="Gainsboro" BorderBrush="Gainsboro" FontSize="16" VerticalContentAlignment="Center"/>
+            </Grid>
+        </Grid>
     </Grid>
 </Window>

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aslak\\OneDrive - Rogaland Fylkeskommune EES\\Dokumenter\\GitHub\\SafeKey\\SafeKey\\Logg_inn\\Logg_inn\\Logg_inn.csproj": {}
+    "C:\\Users\\Aslak bruk\\OneDrive - Rogaland Fylkeskommune EES\\Dokumenter\\GitHub\\SafeKey\\SafeKey\\Logg_inn\\Logg_inn\\Logg_inn.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aslak\\OneDrive - Rogaland Fylkeskommune EES\\Dokumenter\\GitHub\\SafeKey\\SafeKey\\Logg_inn\\Logg_inn\\Logg_inn.csproj": {
+    "C:\\Users\\Aslak bruk\\OneDrive - Rogaland Fylkeskommune EES\\Dokumenter\\GitHub\\SafeKey\\SafeKey\\Logg_inn\\Logg_inn\\Logg_inn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aslak\\OneDrive - Rogaland Fylkeskommune EES\\Dokumenter\\GitHub\\SafeKey\\SafeKey\\Logg_inn\\Logg_inn\\Logg_inn.csproj",
+        "projectUniqueName": "C:\\Users\\Aslak bruk\\OneDrive - Rogaland Fylkeskommune EES\\Dokumenter\\GitHub\\SafeKey\\SafeKey\\Logg_inn\\Logg_inn\\Logg_inn.csproj",
         "projectName": "Logg_inn",
-        "projectPath": "C:\\Users\\aslak\\OneDrive - Rogaland Fylkeskommune EES\\Dokumenter\\GitHub\\SafeKey\\SafeKey\\Logg_inn\\Logg_inn\\Logg_inn.csproj",
-        "packagesPath": "C:\\Users\\aslak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aslak\\OneDrive - Rogaland Fylkeskommune EES\\Dokumenter\\GitHub\\SafeKey\\SafeKey\\Logg_inn\\Logg_inn\\obj\\",
+        "projectPath": "C:\\Users\\Aslak bruk\\OneDrive - Rogaland Fylkeskommune EES\\Dokumenter\\GitHub\\SafeKey\\SafeKey\\Logg_inn\\Logg_inn\\Logg_inn.csproj",
+        "packagesPath": "C:\\Users\\Aslak bruk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aslak bruk\\OneDrive - Rogaland Fylkeskommune EES\\Dokumenter\\GitHub\\SafeKey\\SafeKey\\Logg_inn\\Logg_inn\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\aslak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Aslak bruk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://github.com/dennismagno/metroframework-modern-ui": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0-windows7.0": {
@@ -59,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
